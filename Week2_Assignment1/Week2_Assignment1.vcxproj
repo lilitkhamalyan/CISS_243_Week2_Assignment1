@@ -115,9 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CustomerData.h" />
     <ClInclude Include="PersonData.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CustomerData.cpp" />
     <ClCompile Include="PersonData.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
