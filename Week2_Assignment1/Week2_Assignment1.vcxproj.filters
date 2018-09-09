@@ -15,19 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PersonData.h">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomerData.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    </ClCompile>
     <ClCompile Include="PersonData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CustomerData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PersonData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,7 +1,6 @@
 #ifndef PERSONDATA_H
 #define PERSONDATA_H
 #include <string>
-#include <iostream> 
 using namespace std;
 
 class PersonData
@@ -35,16 +34,13 @@ public:
 		zip = z;
 		phoneNumber = p; 
 	}
-	void setPersondate(string l, string f, string a, string c, string s, string z, string p)
-	{
-		lastName = l;
-		firstName = f;
-		address = a;
-		city = c;
-		state = s;
-		zip = z;
-		phoneNumber = p;
-	}
+	void setLastName(string);
+	void setFirstName(string);
+	void setAddress(string);
+	void setCity(string);
+	void setState(string);
+	void setZip(string);
+	void setPhoneNumber(string);
 	string getLastName() const;
 	string getFirstName() const;
 	string getAddress() const;
