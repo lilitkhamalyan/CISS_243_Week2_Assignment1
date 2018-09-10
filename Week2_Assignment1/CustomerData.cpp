@@ -3,15 +3,13 @@
 #include <string>
 #include <iostream>
 using namespace std;
-void CustomerData::displayCustomer(CustomerData c)
+// // getCustomerNumber returns the value in the member variable customerNumber.
+int CustomerData::getCustomerNumber() const
 {
-	cout << c.getFirstName() << endl;
-	cout << c.getLastName() << endl;
-	cout << c.getAddress()<< endl; 
-	cout << c.getCity() << endl;
-	cout << c.getState() << endl;
-	cout << c.getZip() << endl;
-	cout << c.getPhoneNumber() << endl;
-	cout << c.getCustomerNumber() << endl;
-	cout << c.getMailingList() << endl;
+	return customerNumber;
+}
+// getMailingList returns the value in the member variable mailingList.
+bool CustomerData::getMailingList() const
+{
+	return mailingList;
 }

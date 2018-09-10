@@ -2,7 +2,7 @@
 #define PERSONDATA_H
 #include <string>
 using namespace std;
-
+// PersonData class declaration 
 class PersonData
 {
 private:
@@ -14,6 +14,7 @@ private:
 	string zip;
 	string phoneNumber;
 public:
+	// Default constructor 
 	PersonData ()
 	{
 		lastName = "";
@@ -24,6 +25,7 @@ public:
 		 zip = "";
 		 phoneNumber = "";
 	}
+	// Constructor
 	PersonData(string l, string f, string a, string c, string s, string z, string p)
 	{
 		lastName = l;
@@ -34,6 +36,7 @@ public:
 		zip = z;
 		phoneNumber = p; 
 	}
+	// Mutator functions. All of them are defined in PersonData.cpp
 	void setLastName(string);
 	void setFirstName(string);
 	void setAddress(string);
@@ -41,6 +44,7 @@ public:
 	void setState(string);
 	void setZip(string);
 	void setPhoneNumber(string);
+	//Accessor functions
 	string getLastName() const;
 	string getFirstName() const;
 	string getAddress() const;
